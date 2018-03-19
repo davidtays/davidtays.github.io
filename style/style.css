@@ -15,10 +15,7 @@ main{
 	margin-top: 70px;
 	margin-bottom: 0;
 }
-.navbar-right {
-    float: right!important;
-    margin-right: 150px;
-}
+
 .panel-default > .panel-heading {
   background: #FCA64F;
 }
