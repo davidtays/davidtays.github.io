@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <!-- Author: David Tays 
-     Date:  12/26/17  
-     Desc:  skillz
+     Date:  03/2018  
+     Desc:  personal portfolio web-330
 -->
 
 
@@ -21,8 +21,10 @@
         <title>&quot;David Tays&quot;</title>
     </head>
     <body>
-			<!-- *******************Navbar******************************* -->
-				<nav class="navbar navbar-inverse"> <!-- ***********black navbar************** -->
+			
+            <div class="container-fluid">
+				<!-- *******************Navbar******************************* -->
+				<nav class="navbar navbar-inverse navbar-fixed-top"> <!-- ***********black navbar************** -->
 				  <div class="container">
 					<div class="navbar-header"> 
 					  <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar"><!-- ***********changes layout for small screens ('navbar-toggle')*********** -->
@@ -30,29 +32,29 @@
 						<span class="icon-bar"></span>
 						<span class="icon-bar"></span>                        
 					  </button>
-					  <a class="navbar-brand" href="#container">Me</a>
+					  <a class="navbar-brand" href="#top">Me</a>
 					</div>
 					<div class="collapse navbar-collapse" id="myNavbar">
-					  <ul class="nav navbar-nav navbar-right">
-						<li><a href="#aboutMe">About</a></li>
-						<li><a href="#resume">Resume</a></li>
-						<li><a href="#contact">Contact</a></li>
-						<!-- <li><a href="#">WHAT</a></li>
-						<li><a href="#">WHERE</a></li> -->
-					  </ul>
+						<ul class="nav navbar-nav navbar-left">
+							<li><a href="#aboutMe">About</a></li>
+						</ul>
+						<ul class="nav navbar-nav navbar-right">
+							<li><a href="#likes">Resume</a></li>
+							<li><a href="#interests1">Gallery</a></li>
+							<li><a href="#contact">Contact</a></li>
+						</ul>
 					</div>
 				  </div>
 				</nav>
-            <div class="container-fluid">
 				
-                <div class="jumbotron">
-					<img src="assets/header1.jpg" class="img-circle" width="304" height="304"  alt="Image">
+                <div class="jumbotron" id="#top">
+					<img src="assets/header1.jpg" class="img-circle" width="400" height="290"  alt="Image">
                          
                     <p>Portfolio Creator and Subject: David Tays<br/>Website Designer/Developer<br/>Bellevue, Ne</p>
                 </div>
 				
 				<main class="container-fluid text-center">
-					<h2 id="aboutMe">WHO is David?</h2>
+					<h2 id="aboutMe" style="padding-top: 70px; margin-top: -40px;">WHO is David?</h2>
 					<div class="row"> <!-- ***********Uses columns of bootstrap to place content*********** -->
 						
 						<div class="col-md-6"> 
@@ -96,7 +98,7 @@
 							</div>
 						</div>
 					  </div>
-					  <div id="likes" class="row"> <!-- ***********Uses columns of bootstrap to place content*********** -->
+					  <div id="likes" class="row" style="padding-top: 70px; margin-top: -40px;"> <!-- ***********Uses columns of bootstrap to place content*********** -->
 						<div class="col-md-6">
 						  <div class="col-md-12">
 							  <h2>MY QUALITIES</h2>
@@ -124,30 +126,47 @@
 						</div>
 						
 					  </div>
-					  <div id="interests" class="row">
+					<div id="interests1" class="row">
+						<div class="col-md-12 text-center">
+							<h3 style="padding-top: 90px; margin-top: -40px;">Project Gallery</h3>
+						</div>
 						<div class="col-sm-4">
-						  <h3>Camping</h3>
-						  
-						  <a href="https://en.wikipedia.org/wiki/Camping" target="_blank" title="This will be a project later"><img src="assets/camping.jpg" class="img-responsive margin" style="width:100%" alt="Image"></a>
+						  <h4>BioSite</h4>						  
+						  <a href="https://davidtays.github.io/bioSite/ " target="_blank" title="Biosite I created in 2017"><img src="assets/biositeImage.PNG" class="img-responsive margin" alt="Image of biosite I created"></a>
 						</div>
+						
 						<div class="col-sm-4"> 
-						  <h3>Paintball</h3>
-						  
-						  <a href="https://en.wikipedia.org/wiki/Paintball" target="_blank" title="This will be a project later"><img src="assets/paintball.jpg" class="img-responsive margin" style="width:100%" alt="Image"></a>
+						  <h4>BioSite Pattern Library</h4>					  
+						  <a href="https://github.com/davidtays/WEB200_Bio-Site" target="_blank" title="A pattern library for the Biosite"><img src="assets/biositePatternLibrary.PNG" class="img-responsive margin" alt="Image of a pattern library for the Biosite"></a>
 						</div>
+						
 						<div class="col-sm-4"> 
-						  <h3>Coding</h3>
-						  
-						  <a href="https://en.wikipedia.org/wiki/Web_development"target="_blank" title="This will be a project later"><img src="assets/coding.jpg" class="img-responsive margin" style="width:100%" alt="Image"></a>
+						  <h4>Web230 (Intro to Javascript)</h4>
+						  <a href="https://github.com/davidtays/web-230"target="_blank" title="My Intro to Javascript Repository"><img src="assets/web230-javascript.PNG" class="img-responsive margin" alt="Javascript Icon Image"></a>
 						</div>
-					  </div>
+					</div>
+					<div id="interests" class="row">
+						<hr>
+						<div class="col-sm-4">
+						  <h4>Personal Portfolio Prototype</h4>						  
+						  <a href="https://github.com/davidtays/davidtays.github.io/blob/master/Tays_2-4.pdf " target="_blank" title="Initial sketch of my personal portfolio"><img src="assets/personalportfolioprototype.PNG" class="img-responsive margin" style="width:100%" alt="Image of initial sketch of my personal portfolio"></a>
+						</div>
+						
+						<div class="col-sm-4"> 
+						  <h4>Design Patterns/ Javascript</h4>					  
+						  <a href="https://github.com/davidtays/web-330" target="_blank" title="More Javascript"><img src="assets/web330.PNG" class="img-responsive margin" style="width:100%" alt="Image of design patterns"></a>
+						</div>
+						
+						
+					</div>
+					  
 				
 				</main>
 				<footer class="container-fluid text-center" >
 					  <div id="footerContent" class="row"> <!-- ***********Uses columns of bootstrap to place content*********** -->
 						<div class="col-md-6">
 						  <div class="col-md-12">
-							  <h2 id="contact">Contact Info</h2>
+							  <h3 id="contact">Contact Info</h3>
 							  <ul>
 								<li>david tays</li>
 								<li>Web Developer</li>
