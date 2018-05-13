@@ -8,6 +8,12 @@ main{
 	padding-top: 10px;
 	width: 1040px;
 }
+img:hover{
+  box-shadow: 0 0 5px 5px rgba(51, 62, 66, 0.5);
+}
+.row{
+  padding: 10px;
+}
 .jumbotron{
 	background-color: #221100;
 	color: #f0f0ee;
